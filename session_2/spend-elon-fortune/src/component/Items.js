@@ -1,5 +1,5 @@
 import React from "react";
-class Item extends React.Component {
+class Items extends React.Component {
     render() {
         const { img, name, price } = this.props;
         return (
@@ -22,4 +22,4 @@ class Item extends React.Component {
         );
     }
 }
-export default Item;
+export default Items;

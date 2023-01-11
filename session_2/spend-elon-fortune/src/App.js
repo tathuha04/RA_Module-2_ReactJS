@@ -1,12 +1,13 @@
 import './App.css';
 import Header from './component/Header';
-import ListItem from './component/listItems';
+import ListItem from './component/ListItem';
 
 function App() {
   return (
     <div className="App">
-     <Header></Header>
-     <ListItem></ListItem>
+     <Header/>
+
+     <ListItem/>
     </div>
   );
 }
